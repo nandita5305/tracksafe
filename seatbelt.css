@@ -1,0 +1,77 @@
+body{
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+nav {
+    background-color: rgb(5, 1, 8);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    animation: slideInDown 0.5s ease-in-out;
+}
+
+#logo img {
+    height: 50px;
+}
+.menu-toggle {
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.item {
+    margin: 0 15px;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.item a i {
+    margin-right: 8px;
+    font-size: 18px; /* Adjust icon size */
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: white;           /* White text */
+    text-align: center;     /* Center the text */
+    padding-top: 10px;       /* Padding on top and bottom */
+    position: relative;     /* Allow the footer to be positioned */
+    bottom: 0;              /* Stick it to the bottom of the page */
+    width: 100%;           /* Full width */
+}
+
+.footer-container {
+    max-width: 1200px;      /* Max width for the footer content */
+    margin: 0 auto;         /* Center the footer content */
+}
+
+footer p {
+    margin: 0;              /* Remove default margin from paragraph */
+}
+
